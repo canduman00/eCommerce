@@ -1,0 +1,40 @@
+.main-title{
+    text-align: center;
+    font-size:3rem;
+}
+.product-display{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:1rem;
+    padding:2%;
+}
+
+.product-card{
+    display:grid;
+    place-items:center;
+    padding:1rem;
+
+    border-radius:1rem;
+    box-shadow: 0 0 2px;
+}
+
+.product-image{
+    width:400px;
+    display:inline-block;
+    margin:0;
+}
+.product-context{
+    text-align: center;
+    font-weight:bold;
+}
+.add-btn{
+    padding:0.5em 1em;
+    background:transparent;
+    border-radius: 1rem;
+    border:2px solid black;
+    cursor:pointer;
+}
+.add-btn:hover{
+    background:black;
+    color:white;
+}
