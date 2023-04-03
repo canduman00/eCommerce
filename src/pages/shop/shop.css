@@ -9,6 +9,14 @@
     padding:2%;
 }
 
+
+@media (max-width:450px){
+    .product-display{
+        grid-template-columns:1fr;
+    }
+}
+
+
 .product-card{
     display:grid;
     place-items:center;
@@ -22,6 +30,11 @@
     width:400px;
     display:inline-block;
     margin:0;
+}
+@media (max-width:400px){
+    .product-image{
+        width:300px;
+    }
 }
 .product-context{
     text-align: center;
